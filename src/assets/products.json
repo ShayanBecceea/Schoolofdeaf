@@ -1,0 +1,40 @@
+{
+	"data": [
+		{
+			"id": "1",
+			"name": "Alimentation",
+			"image": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+		},
+
+		{
+			"id": "2",
+			"name": "Animaux",
+			"image": "https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+		},
+
+		{
+			"id": "3",
+			"name": "Calendrier Temps",
+			"image": "https://images.pexels.com/photos/4063550/pexels-photo-4063550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+		},
+
+		{
+			"id": "4",
+			"name": "Commerce",
+			"image": "https://cdn.pixabay.com/photo/2017/08/02/01/11/people-2569404_960_720.jpg"
+		},
+
+		{
+			"id": "5",
+			"name": "Corps",
+			"image": "https://images.unsplash.com/photo-1532153470116-e8c2088b8ac1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+		},
+
+		{
+			"id": "6",
+			"name": "Couleurs",
+			"image": "https://images.unsplash.com/photo-1528344867032-221db2e89e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+		}
+
+	]
+}
