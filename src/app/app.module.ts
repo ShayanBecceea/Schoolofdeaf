@@ -15,6 +15,9 @@ import {DialogModule} from 'primeng/dialog';
 import {InputTextModule} from 'primeng/inputtext';
 import {RatingModule} from 'primeng/rating';
 import {RippleModule} from 'primeng/ripple';
+import { CategoryComponent } from './components/category/category.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CategorylistComponent } from './components/categorylist/categorylist.component';
 
 @NgModule({
   imports: [
@@ -29,9 +32,11 @@ import {RippleModule} from 'primeng/ripple';
     RippleModule,
     HttpClientModule,
     RatingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    
   ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, CategoryComponent, CategorylistComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })

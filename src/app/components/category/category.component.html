@@ -1,0 +1,30 @@
+<div class="card">
+    <div class = "cardContainerAlpha">
+        <div class="card" *ngFor='let alpha of alphabetList'>
+          <div class="poster">
+            <a><img src={{alpha.posterurl}} width="25px" height="25px" (click)= "getItemsByName(alpha.alphabet)"></a>
+          </div>
+        </div>
+      </div>
+  <p-dataView #dv [value]="products" [paginator]="true" [rows]="9" filterBy="name" layout="grid">
+      <ng-template pTemplate="header">
+          <div class="p-d-flex p-flex-column p-flex-md-row p-jc-md-between" >
+              <span>  </span>
+              <span class="p-input-icon-left p-mb-2 p-mb-md-0"  style="display: flex; flex-direction: row;">
+                  <i class="pi pi-search"></i>
+                  <input type="search" class="search" style="width: 600px; border-color: rgb(34, 83, 129); height: 50px;"  pInputText placeholder="Search" (input)="getItemsByName($event.target.value)">   
+              </span>
+          </div>
+    
+      </ng-template>
+      <ng-template let-product pTemplate="gridItem">
+          <div class="p-col-12 p-md-4">
+              <div class="product-grid-item card">
+                  <div class="product-grid-item-content">
+                      <div class="product-name">{{product.name}}</div>
+                      <a routerLink= "/category/{{product.name}}" class = "product-image"><img src = {{product.image}}/></a>
+                  </div>
+              </div>
+          </div>
+      </ng-template>
+  </p-dataView>
