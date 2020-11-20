@@ -9,6 +9,12 @@ import { ProductService } from 'src/app/productservice';
 })
 export class CategoryComponent implements OnInit {
 
+  form1SubCategorySelected : string = "";
+
+  chosen(item: string ) {
+    this.form1SubCategorySelected = item;
+    console.log(this.form1SubCategorySelected);
+  }
 
   alphabetList: { alphabet: string, posterurl: string}[] = [
     { "alphabet": "a", "posterurl": "../assets/alphabetPNG/a.png"},
@@ -43,21 +49,32 @@ products: Product[];
 
 productsfiltered : Product[];
 
+
 constructor(private productService: ProductService) { }
 
 ngOnInit() {
-
     console.log("Category");
     this.productService.getProducts().then(data => {
       this.productsfiltered = data;
       this.products = this.productsfiltered;
+
     });
 }
 
 getItemsByName(title: string) {
   let re = new RegExp('^' + title, "i");
   this.products = this.productsfiltered.filter(m => re.test(m.name));
+
   }
+
+  getItemBySearch(title: string) {
+    let re = new RegExp('^' + title, "i");
+    this.products = this.productsfiltered.filter(m => re.test(m.name));
+    this.form1SubCategorySelected = "";
+     console.log(this.form1SubCategorySelected);
+    }
+
+    
 
 
 }

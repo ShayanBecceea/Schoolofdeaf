@@ -3,13 +3,12 @@
 		margin: 0.5em;
 		border: 1px solid #dee2e6;
 		margin-top: 25px;
-		width: 80%;
-		background-color: rgb(87, 190, 190);
 
 		img {
-			width: 80%;
+			width:75%;
 			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-			margin: 2rem 0;	
+			margin: 2rem 0;
+			
 		}
 
 		.product-grid-item-content {
@@ -25,21 +24,32 @@
 	
 		}
 		&:hover {
-			transform: scale(1.05);
+			transform: scale(1.02);
 			transition: transform 0.2s;
 		}
 
 	}
 
+	
+
 
 .card {
 	padding: 2rem;
-	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),0 1px 3px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+		0 1px 3px 0 rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
 	margin-bottom: 2rem;
 	cursor: pointer;
 	
 
+}
+
+.footer{
+	font-size: 60px;
+	text-align: center;
+	color: red;
+	margin-top: 10%;
+	margin-bottom: 200px;
 }
 
 .cardContainerAlpha {
@@ -52,12 +62,16 @@
 		flex-direction: column;
 		width: 35px;
 		height: 35px;
-		margin-left: 3px;
-		justify-content: center;
+		margin-left: 3.5px;
 		background: transparent;
 		align-items: center;
-		border-color: 3px solid black;
-		background-color: rgb(34, 83, 129);
+		background-color: rgb(47, 98, 145);
+		justify-content: center;
+
+		&.selected{
+			background-color: gray;
+			transform: scale(1.05);
+		}
 
 		.poster {
 			cursor: pointer;
@@ -82,5 +96,6 @@
 			align-items: center;
 			width: 100%;
 		}
+
 	}
 }
