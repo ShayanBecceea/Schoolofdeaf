@@ -7,19 +7,24 @@
             "category_details": [
                 {
                     "name": "Beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "Biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
+                    
                 },
                 {
                     "name": "Biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "Bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
         },
@@ -32,19 +37,23 @@
             "category_details": [
                 {
                     "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
 		},
@@ -56,19 +65,23 @@
             "category_details": [
                 {
                     "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
 		},
@@ -80,19 +93,23 @@
             "category_details": [
                 {
                     "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
 		},
@@ -104,19 +121,23 @@
             "category_details": [
                 {
                     "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
 		},
@@ -128,166 +149,25 @@
             "category_details": [
                 {
                     "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
+                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 },
                 {
                     "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
+                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
-		},
-
-		{
-			"id": "4",
-			"name": "Commerce",
-			"image": "https://images.pexels.com/photos/374006/pexels-photo-374006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		},
-
-		{
-			"id": "5",
-			"name": "Corps",
-			"image": "https://images.pexels.com/photos/2294354/pexels-photo-2294354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		},
-
-		{
-			"id": "6",
-			"name": "Couleurs",
-			"image": "https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		},
-
-		{
-			"id": "4",
-			"name": "Commerce",
-			"image": "https://images.pexels.com/photos/374006/pexels-photo-374006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		},
-
-		{
-			"id": "5",
-			"name": "Corps",
-			"image": "https://images.pexels.com/photos/2294354/pexels-photo-2294354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		},
-
-		{
-			"id": "6",
-			"name": "Couleurs",
-			"image": "https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "category_details": [
-                {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg"
-                },
-                {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg"
-                },
-                {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg"
-                },
-                {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg"
-                }
-            ]
-		}
-
+		}	
 	]
 }

@@ -18,6 +18,7 @@ import {RippleModule} from 'primeng/ripple';
 import { CategoryComponent } from './components/category/category.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
+import { CategorydetailsComponent } from './components/categorydetails/categorydetails.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,7 @@ import { CategorylistComponent } from './components/categorylist/categorylist.co
     AppRoutingModule,
     
   ],
-  declarations: [ AppComponent, CategoryComponent, CategorylistComponent ],
+  declarations: [ AppComponent, CategoryComponent, CategorylistComponent, CategorydetailsComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
