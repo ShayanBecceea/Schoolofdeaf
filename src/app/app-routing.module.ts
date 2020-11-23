@@ -7,7 +7,7 @@ import { CategorylistComponent } from './components/categorylist/categorylist.co
 const routes: Routes = [
   {path: 'category', component: CategoryComponent},
   {path: 'category/:categorySel', component: CategorylistComponent},
-  {path: 'category/:categorySel/:cat', component: CategorydetailsComponent},
+  {path: 'category/:categorySel/subCategory/:subCategorySel', component: CategorydetailsComponent},
   {path: '**', redirectTo: 'category'}
 ];
 

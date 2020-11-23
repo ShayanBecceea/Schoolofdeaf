@@ -1,6 +1,7 @@
 <div class="card">
-    <div class = "cardContainerAlpha">
-        <div class="card" *ngFor='let alpha of alphabetList' (click)="chosen(alpha.alphabet)" [class.selected]="form1SubCategorySelected==alpha.alphabet" (click)= "getItemsByName(alpha.alphabet)"   >
+    <div class = "cardContainerAlpha" >
+        <div class="card" *ngFor='let alpha of alphabetList' (click)="chosen(alpha.alphabet)" [class.selected]="form1SubCategorySelected==alpha.alphabet" 
+        (click)= "getItemsByName(alpha.alphabet)"  >
           <div class="poster">
             <a><img src={{alpha.posterurl}} width="25px" height="25px"></a>
           </div>
@@ -31,15 +32,12 @@
           </ng-template>
 
 
-        
-
-        
           <ng-template pTemplate="footer" let-product>
-            <ng-container *ngIf="this.products?.length === 0">
+            <div *ngIf="this.products?.length === 0">
             <div [attr.colspan]="product?.length" class="footer">
                 No records found
             </div>
-            </ng-container>
+            </div>
           </ng-template>
           
 

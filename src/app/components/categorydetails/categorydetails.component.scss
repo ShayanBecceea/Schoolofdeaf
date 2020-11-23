@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+.header{
+    font-size: 60px;
+    font-family: "Maax";
+    margin-bottom: 40px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.images{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
 .button_controls{
     background-color: rgb(31, 47, 138);
     border: 3px ;
@@ -13,8 +36,7 @@
     cursor: pointer;
 }
 
-
-
 .video:focus {
     outline: none;
+
 }

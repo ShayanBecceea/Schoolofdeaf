@@ -19,6 +19,8 @@ import { CategoryComponent } from './components/category/category.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CategorylistComponent } from './components/categorylist/categorylist.component';
 import { CategorydetailsComponent } from './components/categorydetails/categorydetails.component';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+
 
 @NgModule({
   imports: [
@@ -35,6 +37,7 @@ import { CategorydetailsComponent } from './components/categorydetails/categoryd
     RatingModule,
     FormsModule,
     AppRoutingModule,
+    InfiniteScrollModule
     
   ],
   declarations: [ AppComponent, CategoryComponent, CategorylistComponent, CategorydetailsComponent ],

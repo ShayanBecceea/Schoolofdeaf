@@ -8,4 +8,6 @@ export interface Product {
 export interface SubProduct {
     name?:string;
     image?:string;
+    video?:string;
+    sign_language?:string;
 }

@@ -1,12 +1,24 @@
-<div id="video">
-    <video id="my_video_1" class="video" width="435px" height="267px" controls  
-    poster='https://wallpaperaccess.com/full/124585.jpg'>
-		<source [src]="videoURL" type='video/mp4' />
-  </video>
+<div *ngIf="loading == true">
+  <div class="header">{{name}}</div>
+
   <div>
-	<button class = "button_controls" (click)="playPause()">Play/Pause</button>
-	<button class = "button_controls" (click)="restart();">Restart</button>
-	<button class = "button_controls" (click)="skip(-10)">Rewind</button>
-  <button class = "button_controls" (click)="skip(10)">Forward</button>
-</div>
+    <img src={{image}} width="275px" height="350px">
+  </div>
+
+  <div>
+    <img src={{sign}} width="275px" height="350px">
+  </div>
+
+  <div id="video">
+    <video id="my_video_1" class="video" width="435px" height="267px" controls  
+      poster='https://wallpaperaccess.com/full/124585.jpg'>
+      <source [src]="video" type='video/mp4' />
+    </video>
+  <div>
+    <button class = "button_controls" (click)="playPause()">Play/Pause</button>
+    <button class = "button_controls" (click)="restart();">Restart</button>
+    <button class = "button_controls" (click)="skip(-10)">Rewind</button>
+    <button class = "button_controls" (click)="skip(10)">Forward</button>
+  </div>
+  </div>
 </div>

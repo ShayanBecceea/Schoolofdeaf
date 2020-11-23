@@ -49,6 +49,7 @@ products: Product[];
 
 productsfiltered : Product[];
 
+page: number = 1;
 
 constructor(private productService: ProductService) { }
 
@@ -57,7 +58,6 @@ ngOnInit() {
     this.productService.getProducts().then(data => {
       this.productsfiltered = data;
       this.products = this.productsfiltered;
-
     });
 }
 
@@ -73,8 +73,5 @@ getItemsByName(title: string) {
     this.form1SubCategorySelected = "";
      console.log(this.form1SubCategorySelected);
     }
-
-    
-
 
 }
