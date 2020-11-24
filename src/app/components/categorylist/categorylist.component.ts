@@ -2,6 +2,8 @@ import { ProductService } from './../../productservice';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product, SubProduct } from 'src/app/product';
+import { PopUpComponent } from '../pop-up/pop-up.component';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
  
 @Component({
   selector: 'app-categorylist',
@@ -10,7 +12,7 @@ import { Product, SubProduct } from 'src/app/product';
 })
 export class CategorylistComponent implements OnInit {
  
-  constructor(private route: ActivatedRoute, private productService: ProductService) { }
+  constructor(private route: ActivatedRoute, private productService: ProductService, private modalService: NgbModal) { }
  
   categorySelected: string;
   products: Product[];
@@ -113,6 +115,36 @@ export class CategorylistComponent implements OnInit {
     this.sub = this.subfiltered.filter(m => re.test(m.name));
     this.form1SubCategorySelected = "";
      console.log(this.form1SubCategorySelected);
+    }
+
+    open(variable: string) {
+      const modalRef = this.modalService.open(PopUpComponent);
+      modalRef.componentInstance.name = variable;
+    }
+  
+    modalShow = false;
+    modalleft;
+    modaltop;
+  
+    addClickEvent(e, category) {
+      this.form1SubCategorySelected = category;
+      if (e.type === 'mousemove') {
+  
+      }
+      else if (e.type === 'mouseenter') {
+        this.modalShow = true;
+      }
+      else if (e.type === 'mouseleave') {
+        this.modalShow = false;
+      }
+      // if (e.type === 'mouseenter') {
+      //   this.modalleft = e.clientX
+      //   this.modaltop = e.clientY
+      //   this.modalShow= true;
+  
+      // } else if (e.type === 'mouseleave') {
+      //   this.modalShow= false;
+      // }
     }
  
 }

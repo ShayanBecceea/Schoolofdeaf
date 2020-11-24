@@ -1,101 +1,203 @@
 
-	.product-grid-item {
-		margin: 0.5em;
-		border: 1px solid #dee2e6;
-		margin-top: 25px;
+// 	.product-grid-item {
+// 		margin: 0.5em;
+// 		border: 1px solid #dee2e6;
+// 		margin-top: 25px;
 
-		img {
-			width:100%;
-			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-			margin: 2rem 0;
+// 		img {
+// 			width:100%;
+// 			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+// 			margin: 2rem 0;
 			
-		}
+// 		}
 
-		.product-grid-item-content {
-			text-align: center;
+// 		.product-grid-item-content {
+// 			text-align: center;
 			
-		}
+// 		}
 
-		.product-name {
-			font-size: 3rem;
-			font-weight: 700;
-			color: black;
-			font-family: Maax;
+// 		.product-name {
+// 			font-size: 3rem;
+// 			font-weight: 700;
+// 			color: black;
+// 			font-family: Maax;
 	
-		}
-		&:hover {
-			transform: scale(1.02);
-			transition: transform 0.2s;
-		}
+// 		}
+// 		&:hover {
+// 			transform: scale(1.02);
+// 			transition: transform 0.2s;
+// 		}
 
+// 	}
+
+	
+
+
+// .card {
+// 	padding: 2rem;
+// 	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+// 		0 1px 3px 0 rgba(0, 0, 0, 0.12);
+// 	border-radius: 4px;
+// 	margin-bottom: 2rem;
+// 	cursor: pointer;
+	
+
+// }
+
+// .footer{
+// 	font-size: 60px;
+// 	text-align: center;
+// 	color: red;
+// 	margin-top: 10%;
+// 	margin-bottom: 200px;
+// }
+
+// .cardContainerAlpha {
+// 	display: flex;
+// 	flex-direction: row;
+// 	flex-wrap: wrap;
+
+// 	.card {
+// 		display: flex;
+// 		flex-direction: column;
+// 		width: 35px;
+// 		height: 35px;
+// 		margin-left: 3.5px;
+// 		background: transparent;
+// 		align-items: center;
+// 		background-color: rgb(47, 98, 145);
+// 		justify-content: center;
+
+// 		&.selected{
+// 			background-color: gray;
+// 			transform: scale(1.05);
+// 		}
+
+// 		.poster {
+// 			cursor: pointer;
+// 		}
+// 	}
+// }
+
+// @media screen and (max-width: 576px) {
+// 	:host ::ng-deep .product-list-item {
+// 		flex-direction: column;
+// 		align-items: center;
+
+// 		img {
+// 			width: 75%;
+// 			margin: 2rem 0;
+// 		}
+
+// 		.product-list-action {
+// 			margin-top: 2rem;
+// 			flex-direction: row;
+// 			justify-content: space-between;
+// 			align-items: center;
+// 			width: 100%;
+// 		}
+
+// 	}
+// }
+
+.product-grid-item {
+	margin: 0.5em;
+	border: 1px solid #dee2e6;
+	margin-top: 25px;
+
+	img {
+		width:100%;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		margin: 2rem 0;
+	
 	}
 
-	
+	.product-grid-item-content {
+		text-align: center;
+		
+	}
+
+	.product-name {
+		font-size: 3rem;
+		font-weight: 700;
+		color: black;
+		font-family: Maax;
+
+	}
+	&:hover {
+		transform: scale(1.02);
+		transition: transform 0.2s;
+	}
+
+}
+
 
 
 .card {
-	padding: 2rem;
-	box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-		0 1px 3px 0 rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
-	margin-bottom: 2rem;
-	cursor: pointer;
-	
+padding: 2rem;
+box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+	0 1px 3px 0 rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+margin-bottom: 2rem;
+cursor: pointer;
+
 
 }
 
 .footer{
-	font-size: 60px;
-	text-align: center;
-	color: red;
-	margin-top: 10%;
-	margin-bottom: 200px;
+font-size: 60px;
+text-align: center;
+color: red;
+margin-top: 10%;
+margin-bottom: 200px;
 }
 
 .cardContainerAlpha {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+.card {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30px;
+	height: 35px;
+	margin-left: 2.2px;
+	background: transparent;
+	align-items: center;
+	background-color: rgb(47, 98, 145);
+	justify-content: center;
 
-	.card {
-		display: flex;
-		flex-direction: column;
-		width: 35px;
-		height: 35px;
-		margin-left: 3.5px;
-		background: transparent;
-		align-items: center;
-		background-color: rgb(47, 98, 145);
-		justify-content: center;
-
-		&.selected{
-			background-color: gray;
-			transform: scale(1.05);
-		}
-
-		.poster {
-			cursor: pointer;
-		}
+	&.selected{
+		background-color: gray;
+		transform: scale(1.05);
 	}
+
+	.poster {
+		cursor: pointer;
+	}
+}
 }
 
 @media screen and (max-width: 576px) {
-	:host ::ng-deep .product-list-item {
-		flex-direction: column;
-		align-items: center;
 
-		img {
-			width: 75%;
-			margin: 2rem 0;
-		}
 
-		.product-list-action {
-			margin-top: 2rem;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-			width: 100%;
-		}
+:host ::ng-deep .product-list-item {
+	flex-direction: column;
+	align-items: center;
 
+	img {
+		width: 75%;
+		margin: 2rem 0;
 	}
+
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+.product-name {
+	font-size: 2px;
+
+}
+
 }

@@ -8,27 +8,31 @@
                 {
                     "name": "Beure",
                     "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
-                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "video": "../../assets/videos/marteau.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
                     "name": "Biere",
                     "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                     
                 },
                 {
                     "name": "Biscuit",
                     "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
                     "name": "Bomli",
                     "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
         },
@@ -40,28 +44,73 @@
 			"image": "https://images.pexels.com/photos/4577836/pexels-photo-4577836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "category_details": [
                 {
-                    "name": "beure",
-                    "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
+                    "name": "Penguin",
+                    "image": "https://images.pexels.com/photos/4607022/pexels-photo-4607022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "biere",
-                    "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
+                    "name": "Elephant",
+                    "image": "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                    
                 },
                 {
-                    "name": "biscuit",
-                    "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
+                    "name": "Lion",
+                    "image": "https://images.pexels.com/photos/3498323/pexels-photo-3498323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "bomli",
-                    "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
+                    "name": "Dauphin",
+                    "image": "https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                },
+
+                {
+                    "name": "Perroquet",
+                    "image": "https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                },
+
+                {
+                    "name": "Zebra",
+                    "image": "https://images.pexels.com/photos/1916645/pexels-photo-1916645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                },
+
+                {
+                    "name": "Singe",
+                    "image": "https://images.pexels.com/photos/1829979/pexels-photo-1829979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                },
+
+                {
+                    "name": "Giraffe",
+                    "image": "https://images.pexels.com/photos/259554/pexels-photo-259554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                },
+
+                {
+                    "name": "Vache",
+                    "image": "https://images.pexels.com/photos/457447/pexels-photo-457447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                    "video": "https://vjs.zencdn.net/v/oceans.mp4",
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
 		},
@@ -72,28 +121,33 @@
 			"image": "https://images.pexels.com/photos/1059383/pexels-photo-1059383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "category_details": [
                 {
-                    "name": "beure",
+                    "name": "Beure",
                     "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "biere",
+                    "name": "Biere",
                     "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                    
                 },
                 {
-                    "name": "biscuit",
+                    "name": "Biscuit",
                     "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "bomli",
+                    "name": "Bomli",
                     "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
 		},
@@ -104,28 +158,33 @@
 			"image": "https://images.pexels.com/photos/374006/pexels-photo-374006.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "category_details": [
                 {
-                    "name": "beure",
+                    "name": "Beure",
                     "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "biere",
+                    "name": "Biere",
                     "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                    
                 },
                 {
-                    "name": "biscuit",
+                    "name": "Biscuit",
                     "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "bomli",
+                    "name": "Bomli",
                     "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
 		},
@@ -136,28 +195,33 @@
 			"image": "https://images.pexels.com/photos/2294354/pexels-photo-2294354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
             "category_details": [
                 {
-                    "name": "beure",
+                    "name": "Beure",
                     "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "biere",
+                    "name": "Biere",
                     "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                    
                 },
                 {
-                    "name": "biscuit",
+                    "name": "Biscuit",
                     "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "bomli",
+                    "name": "Bomli",
                     "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
 		},
@@ -165,33 +229,57 @@
 		{
 			"id": "6",
 			"name": "Couleurs",
-			"image": "https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+			"image": "https://images.pexels.com/photos/1174952/pexels-photo-1174952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             "category_details": [
                 {
-                    "name": "beure",
+                    "name": "Beure",
                     "image": "https://cdn.pixabay.com/photo/2015/01/14/19/20/bake-599521_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "biere",
+                    "name": "Biere",
                     "image": "https://cdn.pixabay.com/photo/2015/07/10/17/53/cheers-839865_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
+                    
                 },
                 {
-                    "name": "biscuit",
+                    "name": "Biscuit",
                     "image": "https://cdn.pixabay.com/photo/2016/12/06/15/26/christmas-cookies-1886760_960_720.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 },
                 {
-                    "name": "bomli",
+                    "name": "Bomli",
                     "image": "https://i.ytimg.com/vi/UYHdqYksIlY/maxresdefault.jpg",
                     "video": "https://vjs.zencdn.net/v/oceans.mp4",
-                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp"
+                    "sign_language": "https://res.cloudinary.com/spiralyze/image/upload/f_auto,w_1414/BabySignLanguage/DictionaryPages/butter-webp.webp",
+                    "thumbnail" : "https://wallpaperaccess.com/full/124585.jpg"
                 }
             ]
+        },
+
+        {
+			"id": "7",
+			"name": "Savat",
+			"image": "../../assets/photos/savat.jpg"
+        },
+
+        {
+			"id": "7",
+			"name": "Sari",
+			"image": "../../assets/photos/sari.jpg"
+        },
+
+        
+        {
+			"id": "7",
+			"name": "Sandalette",
+			"image": "../../assets/photos/sandalette.jpg"
         }
     	
 	]

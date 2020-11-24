@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Product } from 'src/app/product';
 import { ProductService } from 'src/app/productservice';
+import { ModalContentComponent } from '../modal-content/modal-content.component';
+import { PopUpComponent } from '../pop-up/pop-up.component';
 
 @Component({
   selector: 'app-category',
@@ -51,7 +54,7 @@ productsfiltered : Product[];
 
 page: number = 1;
 
-constructor(private productService: ProductService) { }
+constructor(private productService: ProductService, private modalService: NgbModal) { }
 
 ngOnInit() {
     console.log("Category");
@@ -73,5 +76,36 @@ getItemsByName(title: string) {
     this.form1SubCategorySelected = "";
      console.log(this.form1SubCategorySelected);
     }
+  
+    modalShow = false;
+    modalleft;
+    modaltop;
+  
+    addClickEvent(e, category) {
+      this.form1SubCategorySelected = category;
+      if (e.type === 'mousemove') {
+  
+      }
+      else if (e.type === 'mouseenter') {
+        this.modalShow = true;
+      }
+      else if (e.type === 'mouseleave') {
+        this.modalShow = false;
+      }
+      // if (e.type === 'mouseenter') {
+      //   this.modalleft = e.clientX
+      //   this.modaltop = e.clientY
+      //   this.modalShow= true;
+  
+      // } else if (e.type === 'mouseleave') {
+      //   this.modalShow= false;
+      // }
+    }
 
+    // open(variable: string) {
+    //   const modalRef = this.modalService.open(ModalContentComponent);
+    //   modalRef.componentInstance.name = variable;
+    //   modalRef.componentInstance.ex = "variable";
+    // }
+  
 }

@@ -1,0 +1,21 @@
+<div *ngIf="loading == true">
+    <div *ngIf="boolCat == true && boolSub == false" class="back">
+        <div>{{CategorySelected}}</div>
+        <div class = "cardContainer">
+            <div class="card" *ngFor='let subCat of products[0].category_details'>
+                <img src={{subCat.image}} width="175px" height="150px">
+            </div>
+        </div>
+    </div>
+    <div *ngIf="boolCat == false && boolSub == true" class="back">
+        <div>{{SubCategorySelected}}</div>
+        <img src={{sub[0].image}} width="150px" height="125px">
+        <img src={{sub[0].sign_language}} width="150px" height="125px">
+        <video width="150px" height="125px"  
+              poster='https://wallpaperaccess.com/full/124585.jpg'>
+        </video>
+    </div>
+    <div *ngIf="boolCat == false && boolSub == false" class="back">
+        <img src={{imageSelected}} style="max-width: 100%; max-height: 100%; object-fit: cover;">
+    </div>
+</div>

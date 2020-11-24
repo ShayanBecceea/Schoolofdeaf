@@ -10,3 +10,6 @@ body {
   src: local('Maax'),
   url("./assets/fonts/Maax-Bold.woff")format("woff");
 }
+
+/* @import "~bootstrap/scss/bootstrap"; */
+@import '~bootstrap/dist/css/bootstrap.min.css';

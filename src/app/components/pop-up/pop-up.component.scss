@@ -1,0 +1,25 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: transparent;
+      align-items: center;
+      padding-left: 1px;
+      padding-right: 1px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      // background: rgb(141, 141, 0);
+    }
+  
+}
+
+.back {
+  padding: 5px;
+  background: rgba(0, 0, 0, 1.0);
+  color: white;
+  font-size: 25px;
+}
