@@ -69,37 +69,36 @@
   </div>
 </div> -->
  
-  <div *ngIf="loading == true" >
+  <div *ngIf="loading == true" class="card">
     <div class="header">{{name}}</div>
   <p-dataView [value]="products" layout="grid" emptyMessage="">
     <ng-template pTemplate="gridItem">
         <div class="p-col-12 p-md-4">
           <div class="title">{{first_image}}</div>
-            <div class="product-grid-item card">
+            <div class="product-grid-item card" (click)="openPopup('Image', image, true)">
                 <div class="product-grid-item-content">
-                  <img src={{image}} width="275px" height="350px" (mouseenter)="addClickEvent($event, image)" (mouseleave)="addClickEvent($event, image)" (mousemove)="addClickEvent($event, image)">
+                  <img src={{image}} width="275px" height="350px">
                 </div>
             </div>
         </div>
 
             <div class="p-col-12 p-md-4">
               <div class="title">{{second_image}}</div>
-                <div class="product-grid-item card">
+                <div class="product-grid-item card" (click)="openPopup('Sign',sign, true)">
                     <div class="product-grid-item-content">
-                      <img src={{sign}} width="275px" height="350px" (mouseenter)="addClickEvent($event, sign)" (mouseleave)="addClickEvent($event, sign)" (mousemove)="addClickEvent($event, sign)"> 
+                      <img src={{sign}} width="275px" height="350px"> 
                     </div>
                 </div>
                 </div>
 
             <div class="p-col-12 p-md-4">
           <div class="title">Video</div>
-            <div class="product-grid-item card">
+            <div class="product-grid-item card" (click)="openPopup('Video',video, false)" style="height: 74.5% !important; justify-content: center;">
                 <div class="product-grid-item-content">
-                  <video id="my_video_1" class="video" width="100%" height="100%" style="margin-bottom: 100px;" controls  
-                    poster={{thumbnail}} >
-                    <source [src]="video" type='video/mp4'/>
-                      Browser not supported
-                  </video>
+                  <video poster='https://wallpaperaccess.com/full/124585.jpg' width="100%" height="100%" controls>
+                    <!-- <source [src]="video"/> -->
+                    Browser not supported
+                </video>
                 </div>
             </div>
             </div>
@@ -108,7 +107,7 @@
  
             
 </p-dataView>
-<button (click)="openVideoPopup()">Open Modal</button>
+<!-- <button (click)="openVideoPopup()">Open Modal</button> -->
  
 <div style="position: fixed; left: 25%; right: 25%;
   top: 20%; overflow: hidden; pointer-events: none;"  >
@@ -116,7 +115,6 @@
    [CategorySelected]="''" [SubCategorySelected]="''" [imageSelected]="imageSelected" [boolCat]="false" [boolSub]="false"></app-pop-up>
   </div>
 </div>
-asdsadsadsadsadsasdsadsadsadadsadsa
  
 <!-- <div class="card">
   <div class="header">{{name}}</div>

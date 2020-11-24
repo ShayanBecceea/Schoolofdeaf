@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -8,11 +8,20 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class ModalContentComponent implements OnInit {
   @Input() name;
-  @Input() ex;
+  @Input() item;
+  @Input() img;
+  @Input() header;
 
   constructor(public activeModal: NgbActiveModal) { }
 
   ngOnInit(): void {
+    console.log(this.img)
+  }
+
+  @ViewChild("videoPlayer", { static: false }) videoplayer: ElementRef;
+  isPlay: boolean = false;
+  toggleVideo(event: any) {
+    this.videoplayer.nativeElement.play();
   }
 
 }

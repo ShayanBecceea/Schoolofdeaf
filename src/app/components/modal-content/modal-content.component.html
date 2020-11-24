@@ -1,11 +1,19 @@
-<div class="modal-header">
-  <h4 class="modal-title">Hi there!</h4>
+<div class="modal-header" style="text-align: center; align-items: center; justify-content: center;">
+  <h4 class="modal-title">{{name}}: {{header}}</h4>
   <!-- <button type="button" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
     <span aria-hidden="false">&times;</span>
   </button> -->
 </div>
-<div class="modal-body">
-  <p>Hello, {{name}}! {{ex}}</p>
+<div class="modal-body" style="text-align: center; align-items: center;">
+  <div *ngIf="img==true">
+    <img src={{item}} width="100%" height="700px"> 
+  </div>
+  <div *ngIf="img==false">
+    <video width="100%" height="100%" controls>
+        <source [src]="item" type='video/mp4'/>
+        Browser not supported
+    </video>
+  </div>
 </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>

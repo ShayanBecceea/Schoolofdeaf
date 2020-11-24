@@ -155,7 +155,7 @@ export class CategorydetailsComponent implements OnInit {
  
   thumbnail = "";
   first_image = "Image";
-  second_image = "Image en langue des signes";
+  second_image = "Sign";
   name: string = "";
   image: string = "";
   video: string = "";
@@ -216,22 +216,6 @@ export class CategorydetailsComponent implements OnInit {
     this.videoplayer.nativeElement.play();
   }
  
-  playPause() {
-    var myVideo: any = document.getElementById("my_video_1");
-    if (myVideo.paused) myVideo.play();
-    else myVideo.pause();
-  }
- 
-  skip(value) {
-    let video: any = document.getElementById("my_video_1");
-    video.currentTime += value;
-  }
- 
-  restart() {
-    let video: any = document.getElementById("my_video_1");
-    video.currentTime = 0;
-  }
- 
     modalShow = false;
     modalleft;
     modaltop;
@@ -249,9 +233,12 @@ export class CategorydetailsComponent implements OnInit {
       }
        }
 
-       openVideoPopup(link) {
-        const modalRef = this.modalService.open(ModalContentComponent);
-        modalRef.componentInstance.src = link;
-      }
+  openPopup(name: string, item: string, img: boolean) {
+    const modalRef = this.modalService.open(ModalContentComponent, { windowClass: 'my-class'});
+    modalRef.componentInstance.name = name;
+    modalRef.componentInstance.item = item;
+    modalRef.componentInstance.img = img;
+    modalRef.componentInstance.header = this.categorySubSelected;
+  }
 }
  

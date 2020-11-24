@@ -44,7 +44,7 @@
 .header{
     font-size: 60px;
     font-family: "Maax";
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: #d9e1e9;
     color: black;
@@ -57,7 +57,7 @@
   margin-top: 25px;
 
   &:hover{
-    transform: scale(1.03);
+    transform: scale(1.08);
     transition: transform 0.2s;
   }
  
@@ -131,7 +131,7 @@
 }
  
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .column {
       width: 100%;
     }
@@ -146,5 +146,9 @@
   border-radius: 4px;
   margin-bottom: 2rem;
   cursor: pointer;
- 
+  // background-color: aqua;
+}
+
+::ng-deep .my-class .modal-dialog { 
+  max-width: 75%;
 }
